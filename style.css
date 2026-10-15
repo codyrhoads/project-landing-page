@@ -161,3 +161,11 @@ button {
     border-color: white;
     flex-shrink: 0;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
