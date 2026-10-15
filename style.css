@@ -40,21 +40,24 @@ button {
 .header,
 .hero-body {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 100px;
     gap: 20px;
 }
 
 .hero-body-text {
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
     align-items: flex-start;
     width: 400px;
+    height: 300px;
     gap: 10px;
 }
 
@@ -71,5 +74,45 @@ button {
 
 .links {
     display: flex;
+    gap: 40px;
+}
+
+.information {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.information-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.information-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     gap: 20px;
+}
+
+.information-cards li {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.information-cards img {
+    border: 2px solid #5151fc;
+    border-radius: 10px;
+    flex: 0;
+}
+
+.information-cards div {
+    width: 150px;
+    text-align: center;
 }
